@@ -1,7 +1,8 @@
 <template>
   <div id="app">
     <HelloWorld msg="Soy app1"/>
-    <App2Component/>
+    Desde fuera te han clickado {{ count }} veces
+    <App2Component name="Oe, Oe, Oe" @han-clickado="count++"/>
   </div>
 </template>
 
@@ -14,7 +15,12 @@ export default {
   components: {
     HelloWorld,
     App2Component
-  }
+  },
+  data() {
+    return {
+      count: 0
+    }
+  } 
 }
 </script>
 
