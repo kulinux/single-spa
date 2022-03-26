@@ -28,3 +28,6 @@ const vueLifecycles = singleSpaVue({
 export const bootstrap = vueLifecycles.bootstrap;
 export const mount = vueLifecycles.mount;
 export const unmount = vueLifecycles.unmount;
+
+
+export {default as App2Component} from './components/App2Component';

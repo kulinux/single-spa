@@ -1,16 +1,19 @@
 <template>
   <div id="app">
     <HelloWorld msg="Soy app1"/>
+    <App2Component/>
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import {App2Component} from '@app2/app2';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    App2Component
   }
 }
 </script>

@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "root"
+		},
+		{
+			"path": "app1"
+		},
+		{
+			"path": "app2"
+		}
+	],
+	"settings": {}
+}
