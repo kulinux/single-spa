@@ -1,20 +1,19 @@
 <template>
   <div id="app">
     <HelloWorld msg="Soy app1"/>
-    Desde fuera te han clickado {{ count }} veces
-    <App2Component name="Oe, Oe, Oe" @han-clickado="count++"/>
+    <importador/>
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
-import {App2Component} from '@app2/app2';
+import Importador from './components/Importador.vue';
 
 export default {
   name: 'App',
   components: {
     HelloWorld,
-    App2Component
+    Importador
   },
   data() {
     return {

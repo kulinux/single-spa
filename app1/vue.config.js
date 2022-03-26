@@ -11,7 +11,7 @@ module.exports = {
         //https: true,
         //port: 8503
       },
-      externals: [/^@app2\/.+/, /^app2\/.+/]
+      externals: [/^@app2\/.+/]
     },
     filenameHashing: false
   };
